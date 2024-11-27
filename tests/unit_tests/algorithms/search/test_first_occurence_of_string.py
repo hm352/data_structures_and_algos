@@ -10,4 +10,3 @@ import pytest
 def test_first_occurence_of_substring(haystack, needle, expected):
     actual = find_first_occurence_of_substring(haystack, needle)
     assert actual == expected
-    
